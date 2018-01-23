@@ -46,6 +46,22 @@
             android:id="@+id/password"
             />
     </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember password"
+            android:textSize="18sp"
+            android:id="@+id/remember_pass"
+
+            />
+
+    </LinearLayout>
     <Button
         android:id="@+id/login"
         android:text="Login"
