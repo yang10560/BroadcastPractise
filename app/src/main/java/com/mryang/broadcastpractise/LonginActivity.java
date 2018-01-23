@@ -61,6 +61,7 @@ public class LonginActivity extends BaseActivity {
 
 
 
+
                     Intent intent = new Intent(LonginActivity.this,MainActivity.class);
                     startActivity(intent);
                 }else {
